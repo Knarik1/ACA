@@ -16,8 +16,8 @@
         $name = $_POST['name'];
         $surname = $_POST['surname'];
         $email = $_POST['email'];
-        $myfile = fopen("data.txt", "a") or die("Unable to open file!");
-        $data = 'Name : '.$name.' Surname : '.$surname.' Mail : '.$email;
+        $myfile = fopen("data.txt", "w") or die("Unable to open file!");
+        $data = 'Name : '.$name.' Surname : '.$surname.' Mail : '.$email.'<br>';
         fwrite($myfile, $data);
         fclose($myfile);
 

@@ -12,7 +12,7 @@
 <body>
 <div class="container text-center">
     <div class="page-header text-center">
-        <h1>Draw Matrix</h1>
+        <h1>Users' Table</h1>
     </div>
     <div class="row">
      <div class="col-md-2"></div>
